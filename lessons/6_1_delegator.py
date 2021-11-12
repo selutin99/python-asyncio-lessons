@@ -41,7 +41,7 @@ def cor_delegator(g):
     #         g.send(data)
     #     except BlaBlaException as e:
     #         g.throw(e)
-    result = yield from g
+    result = yield from g  # replaces the code above
     print(result)
 
 
