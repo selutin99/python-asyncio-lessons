@@ -30,4 +30,4 @@ jobs:
       - name: Lint with pycodestyle
         run: |
           source venv/bin/activate
-          pycodestyle --exclude=venv --max-line-length=80 .
+          pycodestyle --exclude=venv --max-line-length=100 .
